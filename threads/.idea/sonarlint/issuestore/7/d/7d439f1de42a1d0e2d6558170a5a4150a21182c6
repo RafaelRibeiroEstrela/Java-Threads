@@ -1,0 +1,30 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Òİ1
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ëäùİ1
+g	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¾ûŠŞ1
+g	java:S112H"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Çï‹Ş1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÏÏ÷òúÿÿÿÿ8‡Òİ1
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ŠÒİ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(µ€Ôøÿÿÿÿ8‡Òİ1
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8öäùİ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(½¯ûøÿÿÿÿ8ŠÒİ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(³¦Äºşÿÿÿÿ8ƒşÒİ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(·é«Ç8ÆğÓİ1
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ÿ¢¹ùúÿÿÿÿ8˜ËÖİ1
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(ÿ¢¹ùúÿÿÿÿ8­–Ş1
+U	java:S106."9Replace this use of System.out or System.err by a logger.(«Ç˜Ë8­–Ş1
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(½¯ûøÿÿÿÿ8­–Ş1
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(îæ€ß8ù½˜Ş1
+U	java:S1065"9Replace this use of System.out or System.err by a logger.(·é«Ç8Òë›Ş1
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(ÓÈÇ‚şÿÿÿÿ8Óë›Ş1
+{
+java:S2142>"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ÈûŠŞ1
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(ı›ÓÇ8ÙÎœŞ1
+{
+java:S2142G"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Óï‹Ş1
+
+java:S2273F"bMove this call to "wait()" into a synchronized block to be sure the monitor on "Banheiro" is held.(Šä8‹Òİ1
+W
+java:S2274F":Remove this call to "wait" or move it into a "while" loop.(Šä8‹Òİ1

@@ -1,0 +1,12 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8»ÿ™¼1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ¢¹ùúÿÿÿÿ8•¿™¼1
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(½¯ûøÿÿÿÿ8Áÿ™¼1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(é§›ş8Áÿ™¼1
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Áÿ™¼1
+`
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(ø¸¼8Áÿ™¼1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(³¦Äºşÿÿÿÿ8Âÿ™¼1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(·é«Ç8Âÿ™¼1
