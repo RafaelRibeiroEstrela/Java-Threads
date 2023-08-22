@@ -1,17 +1,22 @@
 package org.example.programacaoparalela.espereenotifique;
 
+import org.example.programacaoparalela.tarefas.Tarefa;
+
 public class Main {
 
     public static void main(String[] args){
 
-        Banheiro banheiro = new Banheiro();
+        Thread tarefa = new Thread(new Tarefa());
+        tarefa.start();
 
-        Thread thread1 = new Thread(new TarefaNoBanheiro(banheiro), "Carlos");
-        Thread thread2 = new Thread(new TarefaNoBanheiro(banheiro), "Antonio");
-        Thread thread3 = new Thread(new Limpeza(banheiro), "Faxineiro");
+        try {
+            // AGUARDA TERMINO DA TAREFA
+            tarefa.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
-        thread1.start();
-        thread2.start();
-        thread3.start();
+        System.out.println("Terminando a primeira parte");
+
     }
 }
