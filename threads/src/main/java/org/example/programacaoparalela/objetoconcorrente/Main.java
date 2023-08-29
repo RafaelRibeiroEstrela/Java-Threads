@@ -13,7 +13,6 @@ public class Main {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
         atividade.setEstaFazendo(false);
 
         try {
@@ -21,7 +20,6 @@ public class Main {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
         atividade.setEstaFazendo(true);
 
 

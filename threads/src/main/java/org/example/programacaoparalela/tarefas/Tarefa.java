@@ -2,6 +2,7 @@ package org.example.programacaoparalela.tarefas;
 
 public class Tarefa implements Runnable {
 
+
     @Override
     public void run() {
         String nome = Thread.currentThread().getName();

@@ -14,28 +14,26 @@ public class Atividade implements Runnable {
 
      */
     //private boolean estaFazendo;
-    //private volatile boolean estaFazendo;
-    private AtomicBoolean estaFazendo;
+    private volatile boolean estaFazendo;
     public void fazendoAtividade(){
         System.out.println("Iniciando Atividade");
-        estaFazendo = new AtomicBoolean(true);
-        while (estaFazendo.get()) {
+        estaFazendo = true;
+        while (estaFazendo) {
 
         }
-
         System.out.println("Pausa da Atividade");
 
-        while (!estaFazendo.get()) {
+        while (!estaFazendo) {
 
         }
-
         System.out.println("Finalizando Atividade");
 
     }
 
     public void setEstaFazendo(boolean estaFazendo) {
-        this.estaFazendo = new AtomicBoolean(estaFazendo);
+        this.estaFazendo = estaFazendo;
     }
+
 
     @Override
     public void run() {
