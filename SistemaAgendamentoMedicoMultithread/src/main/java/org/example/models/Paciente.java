@@ -15,4 +15,11 @@ public class Paciente {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    @Override
+    public String toString() {
+        return "Paciente{" +
+                "nome='" + nome + '\'' +
+                '}';
+    }
 }

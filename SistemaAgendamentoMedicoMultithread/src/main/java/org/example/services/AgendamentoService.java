@@ -1,7 +1,6 @@
 package org.example.services;
 
 import org.example.models.Consulta;
-import org.example.models.comparators.ConsultaComparator;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -18,22 +17,16 @@ public class AgendamentoService {
         }
         for (int i = 0; i < consultas.size(); i++) {
             if (consulta.getPrioridade().getValue() > consultas.get(i).getPrioridade().getValue()) {
-                consultas.add(obeterIndiceValido(i), consulta);
+                consultas.add(i, consulta);
                 return;
-            } else if (consulta.getPrioridade().getValue() == consultas.get(i).getPrioridade().getValue()) {
-                if (consulta.getDataHora().isBefore(consulta.getDataHora())) {
-                    consultas.add(obeterIndiceValido(i), consulta);
-                    return;
-                }
             }
         }
         consultas.add(consulta);
     }
 
-    private int obeterIndiceValido(int i) {
-        if (i - 1 < 0) {
-            return 0;
+    public void mostrarConsultas() {
+        for (Consulta obj : consultas) {
+            System.out.println(obj);
         }
-        return i - 1;
     }
 }

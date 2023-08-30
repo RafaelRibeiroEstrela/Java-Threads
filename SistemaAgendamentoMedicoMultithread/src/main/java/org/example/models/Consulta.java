@@ -50,5 +50,13 @@ public class Consulta {
         this.prioridade = prioridade;
     }
 
-
+    @Override
+    public String toString() {
+        return "Consulta{" +
+                "medico=" + medico +
+                ", paciente=" + paciente +
+                ", dataHora=" + dataHora +
+                ", prioridade=" + prioridade +
+                '}';
+    }
 }

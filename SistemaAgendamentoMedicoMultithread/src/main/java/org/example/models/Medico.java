@@ -27,4 +27,12 @@ public class Medico {
     public void setEspecialidade(Especialidade especialidade) {
         this.especialidade = especialidade;
     }
+
+    @Override
+    public String toString() {
+        return "Medico{" +
+                "nome='" + nome + '\'' +
+                ", especialidade=" + especialidade +
+                '}';
+    }
 }
