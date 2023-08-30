@@ -1,0 +1,14 @@
+
+g	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¢Žö¶¤1
+‡
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ð×²Úûÿÿÿÿ8®Žö¶¤1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ëÉ–‹8±Žö¶¤1
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(ÖÚìþ8³Žö¶¤1
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(Â°ôŽ8´Žö¶¤1
+{
+java:S2142/"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8´Žö¶¤1
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(Â¡Ø¥8¶Žö¶¤1
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(‘ˆ»¨þÿÿÿÿ8¶Žö¶¤1
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(™É®Áúÿÿÿÿ8·Žö¶¤1
+M
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äð18·Žö¶¤1
